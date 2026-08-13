@@ -1,0 +1,124 @@
+/* Small Reset */
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  margin: 0;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  background: #0d0e0e;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.cta{
+  width: 7rem;
+  height: 2rem;
+  background: red;
+  border-radius: 10px;
+}
+
+.button-right {
+  margin-left: auto;
+}
+
+/* typo */
+
+h1 {
+  background: #eaeaea;
+  font-size: 14rem;
+  color: #eaeaea;
+}
+
+h2 {
+  color: #eaeaea;
+  background: #eaeaea;
+  width: fit-content;
+}
+
+/* css header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  background: orange;
+  height: 5rem;
+  width: 5rem;
+}
+
+#main-navigation {
+  background: purple;
+  width: 12rem;
+}
+
+/* css hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* css section pinned projects */
+.pinnedprojects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.projects-card {
+  background: lightblue;
+  width: 100%;
+  height: 460px;
+}
+
+/* About me Section */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-me-card {
+  background: lightblue;
+  width: auto;
+  height: 426px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  background: yellow;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+}
