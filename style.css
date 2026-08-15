@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4.5rem;
-  margin: 0;
+  margin: 4.5rem;
   max-width: 1200px;
   margin-inline: auto;
   padding-inline: 24px;
@@ -19,6 +19,26 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+:root{
+  --color-bg: #0d0e0e;
+  --color-white:#eaeaea;
+  --color-orange:#FE3A00;
+}
+@font-face {
+  font-family: "geistmono";
+  src: url("assets/fonts/GeistMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "plusjakartasans";
+  src: url(assets/fonts/PlusJakartaSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -28,44 +48,87 @@ main {
 .cta{
   width: 7rem;
   height: 2rem;
-  background: red;
+  background: var(--color-orange);
   border-radius: 10px;
 }
 
 .button-right {
-  margin-left: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: start;
+  width: 100%;
 }
+
 
 /* typo */
 
+h1, h2, h3, h4{
+  font-family: geistmono;
+  color: var(--color-white);
+}
+
+p{
+  font-family: plusjakartasans;
+  color: var(--color-white);
+}
+
 h1 {
-  background: #eaeaea;
-  font-size: 14rem;
-  color: #eaeaea;
+  font-size: 9rem;
 }
 
 h2 {
-  color: #eaeaea;
-  background: #eaeaea;
-  width: fit-content;
+  font-size: 2rem;
+}
+
+.orange-text
+{
+  color: var(--color-orange);
 }
 
 /* css header */
 header {
   display: flex;
   justify-content: space-between;
+  max-height: 5rem;
 }
 
-#logo {
-  background: orange;
-  height: 5rem;
-  width: 5rem;
+.main-navigation{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigation-btn{
+font-family: geistmono;
+color: var(--color-white);
+font-size: 2rem;
+margin: 0.5rem;
+text-decoration: none;
+
+
+}
+
+.eternal-logo{
+  max-height: 5rem;
+}
+
+@media (max-width: 48rem) {
+    .eternal-logo {
+        display: none;
+    }
+    header{
+      justify-content: center;
+    }
 }
 
 #main-navigation {
-  background: purple;
-  width: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 5rem;
 }
+
 
 /* css hero */
 .hero {
@@ -84,7 +147,11 @@ header {
   align-items: center;
 }
 
-
+.hero-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .projects-card {
   background: lightblue;
