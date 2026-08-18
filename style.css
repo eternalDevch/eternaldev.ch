@@ -11,7 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4.5rem;
-  margin: 4.5rem;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
   max-width: 1200px;
   margin-inline: auto;
   padding-inline: 24px;
@@ -89,25 +90,42 @@ h2 {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-height: 5rem;
 }
 
 .main-navigation{
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
   align-items: center;
-  gap: 1rem;
 }
 
-.navigation-btn{
+.navigation-btn a{
 font-family: geistmono;
 color: var(--color-white);
 font-size: 2rem;
 margin: 0.5rem;
 text-decoration: none;
-
-
 }
+
+.navigation-btn{
+  position: relative;
+}
+
+.navigation-btn:not(:last-child)::before{
+  content:"" ;
+  position: absolute;
+  right: -0.1rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: var(--color-white);
+  width: 0.14rem;
+  height: 1.12rem;
+  border-radius: 20%;
+}
+
+
+
 
 .eternal-logo{
   max-height: 5rem;
