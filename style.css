@@ -50,17 +50,28 @@ main {
 }
 
 .cta {
-  width: 7rem;
-  height: 2rem;
-  background: var(--color-orange);
-  border-radius: 10px;
+display: flex;
+min-height: 5rem;
+min-width: 8.875rem;
+padding: 1.5rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 1.33313rem;
+border: 2px solid var(--Orange, #fe3a00);
+color: var(--white, #EAEAEA);
+text-align: center;
+text-decoration: none;
+font-family: geistmono;
+}
+
+.cta:hover{
+  background: #fe3a004D; 
 }
 
 .button-right {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: start;
-  width: 100%;
+  align-self: flex-end;
 }
 
 .project-dev-btn{
@@ -94,6 +105,27 @@ main {
   font-family: geistmono;
   font-size: 1rem;
 }
+
+.button-extern{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: var(--color-white);
+  border-bottom: var(--color-orange) 1px solid;
+  align-self: flex-end;
+  width: fit-content;
+}
+
+.text-extern{
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: geistmono;
+  font-size: 1rem;
+
+}
+
+/* Icons */
+
 /* typo */
 
 h1,
@@ -220,28 +252,36 @@ header {
 .projects-card {
   background: var(--color-lightblack);
   display: flex;
-  height: 28rem;
+  min-height: 28rem;
   padding: 2rem;
   align-items: start;
-  gap: 2rem;
+  gap: 4rem;
   border-radius: 1rem;
-  align-self: stretch;
+  width: 100%;
 }
 
 .project-pic {
   max-height: 24rem;
-  max-width: 100%;
+  max-width: 30rem;
   object-position: center;
   object-fit: fill;
-  aspect-ratio: 5/3;
   align-self: center;
 }
 
-.text-container {
+.project-card-container{
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.project-card-text {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  gap: 1rem;
+  gap: 2rem;
+  max-width: 65ch;   
 }
 
 
@@ -253,9 +293,24 @@ header {
 }
 
 .about-me-card {
-  background: lightblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: auto;
-  height: 426px;
+  max-height: 426px;
+  gap: 4rem;
+}
+
+.portfolio-pic{
+  max-height: 26rem;
+  max-width: 26rem;
+}
+
+.about-me-text {
+  text-align: left;
+  max-width: 65ch;
+  font-family: geistmono;
+
 }
 
 /* footer */
