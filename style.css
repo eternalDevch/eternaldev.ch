@@ -114,7 +114,21 @@ font-family: geistmono;
   border-bottom: var(--color-orange) 1px solid;
   align-self: flex-end;
   width: fit-content;
+  align-items: center;
 }
+
+.button-extern:hover .text-extern,
+.button-extern:hover .icon-arrow path {
+  color: var(--color-orange);
+  stroke: var(--color-orange);
+}
+
+.icon-arrow{
+  vertical-align: middle;
+}
+
+.icon-arrow path {
+  stroke: currentColor;}
 
 .text-extern{
   color: var(--color-white);
@@ -123,6 +137,7 @@ font-family: geistmono;
   font-size: 1rem;
 
 }
+
 
 /* Icons */
 
@@ -139,6 +154,7 @@ h4 {
 p {
   font-family: plusjakartasans;
   color: var(--color-white);
+  font-size: 1.5rem;
 }
 
 h1 {
@@ -262,9 +278,9 @@ header {
 
 .project-pic {
   max-height: 24rem;
-  max-width: 30rem;
+  width: 30rem;
   object-position: center;
-  object-fit: fill;
+  object-fit: co;
   align-self: center;
 }
 
@@ -317,6 +333,7 @@ header {
 footer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .icon-container {
@@ -324,9 +341,24 @@ footer {
   gap: 0.5rem;
 }
 
+.footer-legal-container{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
 .icon {
-  background: yellow;
-  border-radius: 50%;
   height: 44px;
   width: 44px;
+}
+
+.impressum{
+  font-size: 1rem;
+}
+.impressum>h2{
+  font-family: plusjarkartasans;
+}
+
+.email-link{
+  color: var(--color-white);
 }
