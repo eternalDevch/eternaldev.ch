@@ -233,9 +233,8 @@ header {
 }
 .hero-h1 {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 0;
+  font-size: clamp(4rem, 9vw, 9rem);
 }
 
 .hero-tagline {
@@ -244,8 +243,9 @@ header {
   bottom: 0;
   color: var(--color-white);
   font-family: "plusjakartasans","Segoe UI";
-  font-size: 1rem;
+  font-size: clamp(0.80rem, 1.2vw, 1.0rem);
   font-weight: 400;
+  
 }
 
 /* css section pinned projects */
@@ -355,7 +355,7 @@ footer {
 
 /* media */
 
-@media (max-width: 48rem) {
+@media (max-width: 54rem) {
   .eternal-logo {
     display: none;
   }
@@ -377,6 +377,7 @@ footer {
 
   footer{
     flex-direction: row-reverse;
+    padding: 1.25rem;
   }
 
   .icon-container{
@@ -392,4 +393,5 @@ footer {
     flex-direction: column;
     gap: 2rem;
   }
+  
 }
