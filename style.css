@@ -272,7 +272,6 @@ header {
   max-height: 24rem;
   width: 30rem;
   object-position: center;
-  object-fit: co;
   align-self: center;
 }
 
@@ -323,7 +322,7 @@ header {
 /* footer */
 footer {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
 }
 
@@ -362,5 +361,35 @@ footer {
   }
   header {
     justify-content: center;
+  }
+
+  .projects-card{
+  flex-direction: column;
+  }
+  .project-pic{
+    height: 16rem;
+    width: 22rem;
+  }
+
+  .about-me-card{
+    flex-direction: column;
+  }
+
+  footer{
+    flex-direction: row-reverse;
+  }
+
+  .icon-container{
+    flex-direction: column;
+  }
+
+  .icon{
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .footer-legal-container{
+    flex-direction: column;
+    gap: 2rem;
   }
 }
