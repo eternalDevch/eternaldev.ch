@@ -367,8 +367,8 @@ footer {
   flex-direction: column;
   }
   .project-pic{
-    height: 16rem;
-    width: 22rem;
+    min-height: 16rem;
+    max-width: 22rem;
   }
 
   .about-me-card{
