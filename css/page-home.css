@@ -13,7 +13,7 @@
 .hero-h1 {
   display: flex;
   align-items: center;
-  font-size: clamp(4rem, 9vw, 9rem);
+  font-size: clamp(3.5rem, 10vw, 9rem);
 }
 
 .hero-tagline {
@@ -49,7 +49,8 @@
 
 .project-pic {
   max-height: 24rem;
-  width: 30rem;
+  max-width: 30rem;
+  object-fit: contain;
   object-position: center;
   align-self: center;
 }
@@ -87,8 +88,8 @@
 }
 
 .portfolio-pic{
-  max-height: 26rem;
-  max-width: 26rem;
+  max-height: clamp(22rem, 10vw, 26rem);
+  max-width: clamp(22rem, 10vw, 26rem);
 }
 
 .about-me-text {
@@ -101,28 +102,35 @@
 /* media */
 
 @media (max-width: 54rem) {
-  .eternal-logo {
+  #eternal-logo {
     display: none;
+  }
+  #hometext-btn{
+    display: flex;
   }
   header {
     justify-content: center;
+  }¨
+
+  .hero{
+    gap:5rem;
   }
 
   .projects-card{
   flex-direction: column;
   }
+
   .project-pic{
-    height: 16rem;
-    width: 22rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
+
 
   .about-me-card{
     flex-direction: column;
   }
-
   footer{
     flex-direction: row-reverse;
-    padding: 1.25rem;
   }
 
   .icon-container{

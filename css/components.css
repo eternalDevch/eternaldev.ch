@@ -2,14 +2,12 @@
 
 .cta {
 display: flex;
-min-height: 5rem;
-min-width: 8.875rem;
 padding: 1.5rem;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 0.625rem;
-border-radius: 1.33313rem;
+border-radius: 1.3rem;
 border: 2px solid var(--Orange, #fe3a00);
 color: var(--white, #EAEAEA);
 text-align: center;
@@ -100,7 +98,7 @@ header {
 .navigation-btn a {
   font-family: "geistmono","monospace";
   color: var(--color-white);
-  font-size: 2rem;
+  font-size: clamp(1rem, 5vw, 2rem);
   margin: 1rem;
   text-decoration: none;
 }
@@ -121,8 +119,17 @@ header {
   border-radius: 20%;
 }
 
-.eternal-logo {
-  max-height: 5rem;
+.navigation-btn-active{
+    font-family: "geistmono","monospace";
+  color: var(--color-orange);
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  margin: 1rem;
+  text-decoration: none;
+}
+
+#eternal-logo {
+  min-height: 5.5rem;
+  min-width: 10rem;
 }
 
 #main-navigation {
@@ -130,6 +137,11 @@ header {
   flex-direction: row;
   align-items: center;
   min-height: 5rem;
+}
+
+#hometext-btn{
+  display: none;
+  
 }
 
 /* footer */
