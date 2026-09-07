@@ -1,0 +1,91 @@
+/* Small Reset */
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  background: #0d0e0e;
+  font-family: system-ui, sans-serif;
+}
+
+:root {
+  --color-bg: #0d0e0e;
+  --color-white: #eaeaea;
+  --color-orange: #fe3a00;
+  --color-lightblack: #121313;
+  --color-blue: #1E90FF;
+}
+
+
+
+@font-face {
+  font-family: "geistmono";
+  src: url("../assets/fonts/GeistMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: "plusjakartasans";
+  src: url("../assets/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "geistmono","monospace";
+  color: var(--color-white);
+}
+
+p {
+  font-family: "plusjakartasans","Segoe UI";
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 9rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+.orange-text {
+  color: var(--color-orange);
+}
+
+.white-text {
+  color: var(--color-white);
+}
