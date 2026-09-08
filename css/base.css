@@ -16,7 +16,7 @@ body {
   max-width: 1200px;
   margin-inline: auto;
   padding-inline: 24px;
-  background: #0d0e0e;
+  background: var(--color-bg);
   font-family: system-ui, sans-serif;
 }
 

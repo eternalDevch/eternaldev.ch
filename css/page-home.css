@@ -102,16 +102,6 @@
 /* media */
 
 @media (max-width: 54rem) {
-  #eternal-logo {
-    display: none;
-  }
-  #hometext-btn{
-    display: flex;
-  }
-  header {
-    justify-content: center;
-  }¨
-
   .hero{
     gap:5rem;
   }
@@ -129,22 +119,5 @@
   .about-me-card{
     flex-direction: column;
   }
-  footer{
-    flex-direction: row-reverse;
-  }
 
-  .icon-container{
-    flex-direction: column;
-  }
-
-  .icon{
-    height: 3rem;
-    width: 3rem;
-  }
-
-  .footer-legal-container{
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
 }

@@ -177,3 +177,31 @@ footer {
 .email-link{
   color: var(--color-white);
 }
+
+@media (max-width: 54rem) {
+  #eternal-logo {
+    display: none;
+  }
+  #hometext-btn{
+    display: flex;
+  }
+  header {
+    justify-content: center;
+  }
+
+    footer{
+    flex-direction: row-reverse;
+  }
+  .icon-container{
+    flex-direction: column;
+  }
+  .icon{
+    height: 3rem;
+    width: 3rem;
+  }
+  .footer-legal-container{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+}
