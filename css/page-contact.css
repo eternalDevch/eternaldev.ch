@@ -15,6 +15,13 @@
   align-items: start;
 }
 
+.hero-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .social-links{
   display: flex;
   flex-direction: column;
@@ -40,4 +47,11 @@
 
 .button-extern:hover{
   color: var(--color-orange);
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+
+  color: var(--color-white);
 }

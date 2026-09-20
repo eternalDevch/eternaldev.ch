@@ -27,47 +27,59 @@
 
               <section class="hero">
                 <h2 class="reachout-text">Want to collaborate or work together? Reach out through the contact form below or via my social links.</h2>
-                <div class="social-links">
-                  <h1>Social links</h1>
+                <div class="hero-content">
 
-                  <div class="social-container">
-                    <img src="/assets/Icons/E-mail_Icon.svg" alt="">
-                    <a class="button-extern" href="mailto:info@eternaldev.xyz">info@eternaldev.xyz
-                      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
+                  <div class="social-links">
+                    <h1>Social links</h1>
+                    <div class="social-container">
+                      <img src="/assets/Icons/E-mail_Icon.svg" alt="">
+                      <a class="button-extern" href="mailto:info@eternaldev.xyz">info@eternaldev.xyz
+                        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </a>
+                    </div>
+  
+                    <div class="social-container">
+                      <img src="/assets/Icons/discord_icon.svg" alt="">
+                      <a href="" class="button-extern">Discord
+                        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                    </a>
+                      </a>
+                    </div>
+                    
+                    <div class="social-container">
+                      <img src="/assets/Icons/insta_Icon.svg" alt="">
+                      <a href="" class="button-extern">Instagram
+                        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+                    </div>
+  
+                    <div class="social-container">
+                      <img src="/assets/Icons/twitter_icon.svg" alt="">
+                      <a href="" class="button-extern">X.com
+                        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                              <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
-
-                  <div class="social-container">
-                    <img src="/assets/Icons/discord_icon.svg" alt="">
-                    <a href="" class="button-extern">Discord
-                      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                  
-                  <div class="social-container">
-                    <img src="/assets/Icons/insta_Icon.svg" alt="">
-                    <a href="" class="button-extern">Instagram
-                      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </a>
-                  </div>
-
-                  <div class="social-container">
-                    <img src="/assets/Icons/twitter_icon.svg" alt="">
-                    <a href="" class="button-extern">X.com
-                      <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </a>
-                  </div>
-
+          
+                  <form class="contact-form" action="" method="post">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="your.email@example.com" required>
+  
+                    <label for="name">Name</label>
+                    <input id="name" name="name" minlength="4" autocomplete="name" required placeholder="John Edward">
+  
+                    <label for="message">Your message</label>
+                  <textarea name="message" id="message" placeholder="This is where you write your message" required rows="8""></textarea>
+  
+                  </form>
                 </div>
-        
               </section>
           
       </main>

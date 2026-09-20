@@ -78,9 +78,6 @@ font-family: "geistmono","monospace";
   height: min-content;
 }
 
-.icon-arrow path {
-  stroke: currentColor;}
-
 .text-extern{
   color: var(--color-white);
   text-decoration: none;
