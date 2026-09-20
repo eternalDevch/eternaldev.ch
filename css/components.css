@@ -64,6 +64,7 @@ font-family: "geistmono","monospace";
   align-self: flex-end;
   width: fit-content;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .button-extern:hover .text-extern,
@@ -74,6 +75,7 @@ font-family: "geistmono","monospace";
 
 .icon-arrow{
   vertical-align: middle;
+  height: min-content;
 }
 
 .icon-arrow path {

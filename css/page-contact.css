@@ -1,0 +1,43 @@
+/* Small Reset */
+*::before, *::after, * {
+  box-sizing: border-box;
+}
+
+.reachout-text{
+  max-width: 60vw;
+}
+
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  align-items: start;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.social-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.social-container>:nth-child(1){
+  margin-right: 10px;
+  height: 64px;
+}
+
+.button-extern {
+  align-self: center;
+}
+
+.button-extern:hover{
+  color: var(--color-orange);
+}
