@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+#contacttext-btn{
+  color: var(--color-orange);
+}
+
 .reachout-text{
   max-width: 60vw;
 }
@@ -18,8 +22,10 @@
 .hero-content{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  gap: 24px;
 }
 
 .social-links{
@@ -51,7 +57,7 @@
 
 .contact-form{
 display: flex;
-width: 562px;
+width: max-content;
 padding: 24px;
 flex-direction: column;
 align-items: start;
@@ -74,5 +80,38 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 border: 2px solid var(--color-orange, #FE3A00);
-margin-bottom: 12px;
+margin-bottom: 26px;
+background: var(--color-bg);
+color: var(--color-white);
+}
+
+input::placeholder {
+  color: var(--color-white);
+  opacity: 0.5; 
+}
+
+textarea::placeholder{
+  color: var(--color-white);
+  opacity: 0.5;
+}
+
+#submit-btn{
+  background: var(--color-bg);
+  align-self: center;
+}
+
+textarea {
+  field-sizing: content;
+  min-height: 10rem;
+  max-height: 12rem;
+  resize: none;
+}
+
+/* media */
+
+@media (max-width: 54rem) {
+  .reachout-text{
+    max-width: max-content;
+  }
+
 }
