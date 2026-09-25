@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eternalDv</title>
+    <title>eternalDev</title>
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/components.css">
     <link rel="stylesheet" href="/css/page-home.css">
@@ -39,7 +39,7 @@
         <section class="pinnedprojects">
             <h2>Pinned projects</h2>
             <article class="projects-card">
-                <img class="project-pic" src="assets/logo/logo_eternaldev.svg" alt="Logo from eternalDev" class="card-picture"> 
+                <img class="project-pic" src="assets/logo/logo_eternaldev.svg" alt="Logo from eternalDev" > 
                 <div class="project-card-container">
                     <div class="project-card-text">
                         <h3 class="project-title">Portfolio</h3>
@@ -56,7 +56,7 @@
             </article>
 
             <article class="projects-card">
-                <img class="project-pic" src="assets/logo/fav_icon_darkmode.svg" alt="Full white logo from eternalDev" class="card-picture"> 
+                <img class="project-pic" src="assets/logo/fav_icon_darkmode.svg" alt="Full white logo from eternalDev"> 
                 <div class="project-card-container">
                     <div class="project-card-text">
                         <h3 class="project-title">Design showcase</h3>
@@ -73,7 +73,7 @@
             </article>
 
             <article class="projects-card">
-                <img class="project-pic" src="assets/Projects/fuelsplit_project/fuelsplit-darkmode.svg" alt="Logo from fuelsplit" class="card-picture"> 
+                <img class="project-pic" src="assets/Projects/fuelsplit_project/fuelsplit-darkmode.svg" alt="Logo from fuelsplit" > 
                 <div class="project-card-container">
                     <div class="project-card-text">
                         <h3 class="project-title">Fuelsplit</h3>
@@ -95,7 +95,10 @@
         <section class="about-me">
             <h2>About me</h2>
             <article class="about-me-card">
-                <img class="portfolio-pic" src="assets/about_me/Portfolio.webp" alt="Picture of Niklas">
+               <picture class="portfolio-pic">
+                    <source srcset="/assets/about_me/Portfolio.webp" type="image/webp">
+                    <img class="portfolio-pic" src="/assets/about_me/Portfolio.jpg" alt="Portfolio picture from Niklas Naeff">
+                </picture>
                 <p class="about-me-text">Hey, I'm Niklas, also known as eternalDev. 19 years old, from Switzerland, studying Web Design and Development at SAE Zurich. I work precise and minimal, in code and design, still figuring out exactly where I want to take it. In my off hours i drive motorcycle and sim racing. You can find me active on Discord, sometimes GitHub.</p>
             </article>
             <a href="about-page.html" class="cta button-right">More about me</a>
@@ -104,7 +107,7 @@
 
 
     <footer>
-        <div class="icon-container"">
+        <div class="icon-container">
             <a target="_blank" href="https://discord.gg/aXktXPrN7G">
                 <img src="assets/Icons/discord_icon.svg" alt="Icon from Discord" class="icon">
             </a>
