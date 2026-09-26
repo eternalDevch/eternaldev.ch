@@ -3,9 +3,6 @@
   box-sizing: border-box;
 }
 
-#contacttext-btn{
-  color: var(--color-orange);
-}
 
 .reachout-text{
   max-width: 60vw;
@@ -81,7 +78,7 @@ justify-content: space-between;
 align-items: flex-start;
 border: 2px solid var(--color-orange, #FE3A00);
 margin-bottom: 26px;
-background: var(--color-bg);
+background: var(--color-lightblack);
 color: var(--color-white);
 }
 
