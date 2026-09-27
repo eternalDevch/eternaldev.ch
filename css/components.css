@@ -93,6 +93,7 @@ font-family: "geistmono","monospace";
   cursor: default;
 }
 
+/* button extern  */
 .button-extern{
   display: flex;
   flex-direction: row;
@@ -105,7 +106,6 @@ font-family: "geistmono","monospace";
   font-size: 1.5rem;
 }
 
-/* button extern  */
 .button-extern:hover .text-extern,
 .button-extern:hover .icon-arrow path {
   color: var(--color-orange);
@@ -205,7 +205,7 @@ footer {
 
 .icon {
   height: 44px;
-  width: 44px;
+ 
 }
 
 .impressum{
