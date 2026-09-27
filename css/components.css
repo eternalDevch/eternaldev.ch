@@ -1,5 +1,6 @@
 /* components */
 
+/* call to action button */
 .cta {
 display: flex;
 padding: 1.5rem;
@@ -23,6 +24,7 @@ font-family: "geistmono","monospace";
   align-self: flex-end;
 }
 
+/* project-buttons */
 .project-dev-btn{
   display: flex;
   width: 9rem;
@@ -37,6 +39,10 @@ font-family: "geistmono","monospace";
   color: var(--color-white);
   font-family: "geistmono","monospace";
   font-size: 1rem;
+}
+
+.project-dev-btn:hover{
+  color: var(--color-orange);
 }
 
 .project-design-btn{
@@ -55,6 +61,34 @@ font-family: "geistmono","monospace";
   font-size: 1rem;
 }
 
+.project-design-btn:hover{
+  color: var(--color-blue);
+}
+
+.project-collective-btn{
+  display: flex;
+  width: 9rem;
+  height: 2.5rem;
+  padding: 0.5rem 0;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: var(--color-green) 1px solid;
+  background: var(--color-lightblack);
+  color: var(--color-white);
+  font-family: "geistmono","monospace";
+  font-size: 1rem;
+}
+
+.project-collective-btn:hover{
+  color: var(--color-green);
+}
+
+#project-btn-nonactive:hover{
+  color: var(--color-white);
+}
+
 .button-extern{
   display: flex;
   flex-direction: row;
@@ -67,6 +101,7 @@ font-family: "geistmono","monospace";
   font-size: 1.5rem;
 }
 
+/* button extern  */
 .button-extern:hover .text-extern,
 .button-extern:hover .icon-arrow path {
   color: var(--color-orange);

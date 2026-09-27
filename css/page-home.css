@@ -78,7 +78,6 @@ h3{
   max-width: 65ch;   
 }
 
-
 /* About me Section */
 .about-me {
   display: flex;
@@ -108,7 +107,7 @@ h3{
 
 /* media */
 
-@media (max-width: 54rem) {
+@media (max-width: 60rem) {
   .hero{
     gap:5rem;
   }
