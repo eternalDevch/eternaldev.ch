@@ -93,9 +93,15 @@ textarea::placeholder{
 }
 
 #submit-btn{
-  background: var(--color-bg);
+  background: var(--color-lightblack);
   align-self: center;
+  cursor: pointer;
 }
+
+#submit-btn:hover{
+  background: #fe3a004D; 
+}
+
 
 textarea {
   field-sizing: content;

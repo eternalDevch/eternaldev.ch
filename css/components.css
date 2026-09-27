@@ -39,6 +39,7 @@ font-family: "geistmono","monospace";
   color: var(--color-white);
   font-family: "geistmono","monospace";
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .project-dev-btn:hover{
@@ -59,6 +60,7 @@ font-family: "geistmono","monospace";
   color: var(--color-white);
   font-family: "geistmono","monospace";
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .project-design-btn:hover{
@@ -79,6 +81,7 @@ font-family: "geistmono","monospace";
   color: var(--color-white);
   font-family: "geistmono","monospace";
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .project-collective-btn:hover{
@@ -87,6 +90,7 @@ font-family: "geistmono","monospace";
 
 #project-btn-nonactive:hover{
   color: var(--color-white);
+  cursor: default;
 }
 
 .button-extern{

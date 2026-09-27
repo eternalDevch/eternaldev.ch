@@ -1,0 +1,31 @@
+*::before, *::after, * {
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 74px;
+}
+
+.title-section-project{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+#close-svg:hover{
+  stroke: var(--color-orange);
+}
+
+#close-svg{
+  stroke: var(--color-white);
+}
+
+.category-section{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

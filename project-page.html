@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/page-project.css">
+
+</head>
+<body>
+  <header>
+        <a href="index.html" aria-label="Home Button" id="eternal-logo">
+            <img aria-hidden="true" fetchpriority="high" sizes="5rem" class="eternal-logo" src="/assets/logo/logo_eternaldev.svg" alt="Logo von eternaldev">
+        </a>
+        <nav>
+            <ul id="main-navigation">
+                <li class="navigation-btn" id="hometext-btn"><a href="/index.html">Home</a></li>
+                <li class="navigation-btn"> <a id="nav-active-btn" href="/project-page.html">Project</a></li>
+                <li class="navigation-btn"> <a href="/contact-page.html">Contact</a></li>
+                <li class="navigation-btn"><a href="/about-page.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <h1>Projects</h1>
+      <div class="nav-project-container">
+        <button class="project-dev-btn">Development</button>
+        <button class="project-design-btn">Design</button>
+        <button class="project-collective-btn">Collective</button>
+      </div>
+
+      <section class="project-card-section">
+        <article class="projects-card">
+                <img class="project-pic" src="assets/logo/logo_eternaldev.svg" alt="Logo from eternalDev" > 
+                <div class="project-card-container">
+                    <div class="project-card-text">
+                        <h2 class="project-title">Portfolio</h2>
+                        <button class="project-dev-btn" id="project-btn-nonactive">Development</button>
+                        <p class="card-text">A personal portfolio website designed to showcase my projects. Built with a modern and minimalistic design. The layout follows the Swiss / International Typographic Style: a strict grid system, high contrast, a restrained color palette, and no decorative elements without function. The focus is on clear information hierarchy, fast load times</p>
+                    </div>
+                    <a class="project-more-btn" href="/projects-pages/portfolio-project.html">See More</a>
+                </div>
+          </article>
+
+          <article class="projects-card">
+                <img class="project-pic" src="assets/logo/fav_icon_darkmode.svg" alt="Logo from eternalDev" > 
+                <div class="project-card-container">
+                    <div class="project-card-text">
+                        <h2 class="project-title">Design Showcase</h2>
+                        <button class="project-design-btn" id="project-btn-nonactive">Design</button>
+                        <p class="card-text">A collection of design work spanning visual identity, layout systems, and typography. Each piece reflects a focus on grid structure and restraint over decoration, treating constraints as the starting point for form rather than an obstacle to it.</p>
+                    </div>
+                    <a class="project-more-btn" href="">See More</a>
+                </div>
+          </article>
+
+          <article class="projects-card">
+                <img class="project-pic" src="assets/Projects/fuelsplit_project/fuelsplit-darkmode.svg" alt="Logo from eternalDev" > 
+                <div class="project-card-container">
+                    <div class="project-card-text">
+                        <h2 class="project-title">FuelSplit</h2>
+                        <button class="project-dev-btn" id="project-btn-nonactive">Development</button>
+                        <p class="card-text">A fuel calculator built for Le Mans Ultimate. Takes lap time, fuel/lap, and race duration as inputs to calculate exactly what you need for a stint or a full race. Built out of a real need within the team to plan fuel strategy without manual recalculation during a race weekend, precise enough to cut pit stop guesswork down to the second. Currently working on in-game integration.</p>
+                    </div>
+                    <a class="project-more-btn" href="">See More</a>
+                </div>
+          </article>
+
+          <article class="projects-card">
+                <img class="project-pic" src="assets/logo/logo_eternaldev.svg" alt="Logo from eternalDev" > 
+                <div class="project-card-container">
+                    <div class="project-card-text">
+                        <h2 class="project-title">LM Studio</h2>
+                        <button class="project-dev-btn" id="project-btn-nonactive">Development</button>
+                        <p class="card-text">This project uses LM Studio to run a quantized language model locally as an API endpoint  no cloud dependency. Telemetry data (lap times, sector deltas, tire degradation) is structured and passed via prompt to the model, which generates plain-language race engineer notes for strategic decision support. Focus: local inference, prompt engineering, validating model output against real race data.</p>
+                    </div>
+                    <a class="project-more-btn" href="">See More</a>
+                </div>
+          </article>
+      </section>
+    </main>
+              <footer>
+        <div class="icon-container"">
+            <a target="_blank" href="https://discord.gg/aXktXPrN7G">
+                <img src="assets/Icons/discord_icon.svg" alt="Icon from Discord" class="icon">
+            </a>
+            <a target="_blank" href="https://x.com/eternalDevxyz">    
+                <img src="assets/Icons/twitter_icon.svg" alt="icon from twitter" class="icon">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/eternaldev.xyz/">
+                <img src="assets/Icons/insta_Icon.svg" alt="Icon from Instagram" class="icon">
+            </a>
+            <a target="_blank" href="https://github.com/eternalDevxyz?tab=repositories">
+                <img src="assets/Icons/Github_Icon.svg" alt="Icon from Github" class="icon">
+            </a>
+            <a target="_blank" href="mailto:info@eternaldev.xyz">
+                <img src="assets/Icons/E-mail_Icon.svg" alt="Icon for E-mails" class="icon">
+            </a>
+        </div>
+
+        <div class="footer-legal-container">
+            <section class="impressum">
+                <h2 class="orange-text impressum">Impressum</h2>
+                    <p class="impressum">Last updated: June 2026</p>
+                    <p class="impressum">Responsible Person</p>
+                    <p class="impressum">Niklas Naeff</p>
+                    <a class="email-link impressum" href="mailto:info@eternaldev.xyz">info@eternaldev.xyz</a>
+            </section>
+            <a href="" class="cta button-right">Privacy policy</a>
+        </div>
+    </footer>
+</body>
+</html>
