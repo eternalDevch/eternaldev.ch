@@ -64,3 +64,27 @@ align-self: stretch;
 .button-extern{
   align-self: auto;
 }
+
+.picture-section{
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+}
+
+.picture-container{
+display: flex;
+height: 460px;
+padding: 25px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+.picture-container>img{
+  height: 431px;
+flex: 1 0 0;
+aspect-ratio: 1/1;
+object-fit:contain ;
+border: 1px solid var(--Orange, #FE3A00);
+}
