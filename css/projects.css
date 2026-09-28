@@ -90,12 +90,12 @@ border: 1px solid var(--color-orange);
 }
 
 
-.lighthouse {
+.lightbox {
   display: none;
   position: fixed;
   inset: 0;
   place-items: center;
   backdrop-filter: blur(8px);
 }
-.lighthouse:target { display: grid; }
-.lighthouse img { max-width: 90vw; max-height: 90vh; }
+.lightbox:target { display: grid; }
+.lightbox img { max-width: 90vw; max-height: 90vh; }
