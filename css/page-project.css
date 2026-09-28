@@ -29,6 +29,11 @@ border-radius: 16px;
 flex-shrink: 1;
 }
 
+.project-btn-container{
+  display: flex;
+  gap: 8px;
+}
+
 .project-pic {
 display: flex;
 max-width: 227px;
@@ -70,8 +75,6 @@ align-self: flex-end;
 
 @media (max-width: 60rem){
   .project-card-section{
-    display: flex;
-    flex-direction: column;
-    gap: 38px;
+    grid-template-columns: 1fr;
   }
 }

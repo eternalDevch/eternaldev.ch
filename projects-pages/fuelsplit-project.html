@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/logo/logo_eternaldev.svg">
+</head>
+<body>
+    <header>
+        <a href="index.html" aria-label="Home Button" id="eternal-logo">
+            <img aria-hidden="true" fetchpriority="high" sizes="5rem" class="eternal-logo" src="/assets/logo/logo_eternaldev.svg" alt="Logo von eternaldev">
+        </a>
+        <nav>
+            <ul id="main-navigation">
+                <li class="navigation-btn" id="hometext-btn"><a href="/index.html">Home</a></li>
+                <li class="navigation-btn"> <a href="/project-page.html">Project</a></li>
+                <li class="navigation-btn"> <a href="/contact-page.html">Contact</a></li>
+                <li class="navigation-btn"><a href="/about-page.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <section class="title-section-project">
+      <h1>Fuelsplit</h1>
+      <a href="/project-page.html" aria-label="Close project page"><svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+  <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+</svg></a>
+    </section>
+    <section class="category-section">
+      <button class="project-dev-btn" id="project-btn-nonactive">Development</button>
+    </section>
+
+    <section class="main-grid">
+      <img id="title-img" src="/assets/Projects/fuelsplit_project/fuelsplit-darkmode.svg" alt="">
+
+      <article class="article-infos">
+        <h2>Overview</h2>
+        <p>A pre-session fuel strategy tool for endurance racing. Built in Python, the calculator takes race duration, average lap time, pit stop time, safety lap margin and fuel consumption per lap as manual inputs. It outputs total laps driven, optimal pit stop count and timing, and the exact fuel load needed per stint giving the driver a complete strategy picture before lights out.</p>
+      </article>
+
+        <article class="article-infos">
+        <h2>Mission</h2>
+        <p>Eliminate guesswork at the pit wall. Endurance races are lost on fuel miscalculation running dry or carrying dead weight. This tool turns five inputs into a full stint strategy, so every decision going into a race is backed by numbers.</p>
+      </article>
+
+      
+        <article class="article-infos">
+        <h2>Stack</h2>
+        <div class="icon-stack-container">
+          <div><img class="icon-stack" src="/assets/Icons/python_icon.svg" alt="Phyton Logo"></div>
+          <div><img class="icon-stack" src="/assets/Icons/figma_icon.svg" alt="Figma Logo"></div>
+        </div>
+      </article>
+
+        <article class="article-infos">
+        <h2>Approach</h2>
+        <p>Pure logic, no decoration. Input goes in, strategy comes out. No UI layer yet, the calculation engine is the product. Direct in-game data integration is planned, pulling live telemetry straight from LMU via rFactor 2 shared memory to replace manual input entirely.</p>
+      </article>
+
+        <article class="article-infos">
+          <div class="year-info-text">
+            <h2>Year</h2>
+            <p>2026</p>
+          </div>
+            <div class="button-extern">
+               <a href="" class="text-extern">Github</a>
+              <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M1.64847 17.7667L17.7668 1.64837M5.67805 1.64837L17.7668 1.64837L17.7668 13.7371" stroke="#EAEAEA" stroke-width="3.29693" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+      </article>
+
+      <article class="article-infos">
+        <h2>Result</h2>
+        <p>Functional calculation engine. Manual input, full strategy output. Live integration in planning.</p>
+      </article>
+    </section>
+
+    <section class="picture-section">
+      <h2>Pictures</h2>
+      <article class="picture-container">
+        <a href="#img1">
+          <img class="project-pics" src="/assets/Projects/fuelsplit_project/hypercar_calc_screen.png" alt="Screenshot of fuelsplit hypercar calculating">
+        </a>
+        <a href="#" id="img1" class="lightbox"><img src="/assets/Projects/fuelsplit_project/hypercar_calc_screen.png" alt="Screenshot of fuelsplit calculating hypercar fuel."></a>
+       
+        <a href="#img2">
+          <img class="project-pics" src="/assets//Projects/fuelsplit_project/LMGT3_calc_screen.png" alt="Screenshot of fuelsplit calculating">
+        </a>
+        <a href="#" id="img2" class="lightbox"><img src="/assets/Projects/fuelsplit_project/LMGT3_calc_screen.png" alt="Screenshot of fuelsplit calculating GT3 fuel."></a>
+
+        <a href="#img3">
+          <img class="project-pics" src="/assets/Projects/fuelsplit_project/LMP2_calc_screen.png" alt="Screenshot of fuel calculating LMP2 fuel">
+        </a>
+        <a href="#" id="img3" class="lightbox"><img src="/assets/Projects/fuelsplit_project/LMP2_calc_screen.png" alt="Screenshot of fuel calculating LMP2 fuel."></a>
+      </article>
+
+    </section>
+  </main>
+
+   <footer>
+        <div class="icon-container"">
+            <a target="_blank" href="https://discord.gg/aXktXPrN7G">
+                <img src="/assets/Icons/discord_icon.svg" alt="Icon from Discord" class="icon">
+            </a>
+            <a target="_blank" href="https://x.com/eternalDevxyz">    
+                <img src="/assets/Icons/twitter_icon.svg" alt="icon from twitter" class="icon">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/eternaldev.xyz/">
+                <img src="/assets/Icons/insta_Icon.svg" alt="Icon from Instagram" class="icon">
+            </a>
+            <a target="_blank" href="https://github.com/eternalDevxyz?tab=repositories">
+                <img src="/assets/Icons/Github_Icon.svg" alt="Icon from Github" class="icon">
+            </a>
+            <a target="_blank" href="mailto:info@eternaldev.xyz">
+                <img src="/assets/Icons/E-mail_Icon.svg" alt="Icon for E-mails" class="icon">
+            </a>
+        </div>
+
+        <div class="footer-legal-container">
+            <section class="impressum">
+                <h2 class="orange-text impressum">Impressum</h2>
+                    <p class="impressum">Last updated: June 2026</p>
+                    <p class="impressum">Responsible Person</p>
+                    <p class="impressum">Niklas Naeff</p>
+                    <a class="email-link impressum" href="mailto:info@eternaldev.xyz">info@eternaldev.xyz</a>
+            </section>
+            <a href="" class="cta button-right">Privacy policy</a>
+        </div>
+    </footer>
+</body>
+</html>

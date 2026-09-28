@@ -77,6 +77,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 border: 2px solid var(--color-orange, #FE3A00);
+border-radius: 4px;
 margin-bottom: 26px;
 background: var(--color-lightblack);
 color: var(--color-white);

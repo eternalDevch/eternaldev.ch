@@ -51,6 +51,8 @@
   padding-right: 3.25rem;
 }
 
+
+
 @keyframes spin{
   from{translate: 0;}
   to{translate:-100%}
@@ -118,5 +120,9 @@
     align-items: center;
     width: 100%;
     animation: none;
+  }
+
+  #tool-container-animation{
+    display: none;
   }
 }
