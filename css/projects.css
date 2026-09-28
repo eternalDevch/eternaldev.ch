@@ -69,22 +69,33 @@ align-self: stretch;
   display: flex;
   flex-direction: column;
   gap: 74px;
+  width: 100%;
 }
 
 .picture-container{
 display: flex;
-height: 460px;
 padding: 25px;
 justify-content: center;
 align-items: center;
 gap: 20px;
 align-self: stretch;
+flex-wrap: wrap;
 }
 
-.picture-container>img{
-  height: 431px;
-flex: 1 0 0;
+.project-pics{
+  height: 412px;
 aspect-ratio: 1/1;
 object-fit:contain ;
-border: 1px solid var(--Orange, #FE3A00);
+border: 1px solid var(--color-orange);
 }
+
+
+.lighthouse {
+  display: none;
+  position: fixed;
+  inset: 0;
+  place-items: center;
+  backdrop-filter: blur(8px);
+}
+.lighthouse:target { display: grid; }
+.lighthouse img { max-width: 90vw; max-height: 90vh; }
