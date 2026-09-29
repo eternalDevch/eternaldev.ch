@@ -32,6 +32,8 @@ flex-shrink: 1;
 .project-btn-container{
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+
 }
 
 .project-pic {
@@ -42,7 +44,6 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 10px;
-flex-shrink: 0;
 }
 
 .project-card-container{
@@ -77,4 +78,14 @@ align-self: flex-end;
   .project-card-section{
     grid-template-columns: 1fr;
   }
+
+  .projects-card{
+    flex-direction: column;
+  }
+
+  .project-pic{
+    min-height: 120px;
+  }
+
+
 }

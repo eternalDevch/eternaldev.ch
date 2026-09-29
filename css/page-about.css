@@ -120,6 +120,7 @@
     align-items: center;
     width: 100%;
     animation: none;
+    padding-right: 0;
   }
 
   #tool-container-animation{
