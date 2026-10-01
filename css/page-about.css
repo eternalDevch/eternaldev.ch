@@ -41,6 +41,10 @@
     padding-bottom: 1.75rem;
   }
 
+  #tools-i-use{
+    padding-bottom: 0;
+  }
+
  .tool-container {
   display: flex;
   gap: 3.25rem;

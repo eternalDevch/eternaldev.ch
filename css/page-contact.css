@@ -41,6 +41,7 @@
 .social-container>:nth-child(1){
   margin-right: 10px;
   height: 64px;
+  width: 64px;
 }
 
 .button-extern {
