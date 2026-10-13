@@ -25,7 +25,7 @@ h3{
 
 .hero-tagline {
   position: absolute;
-  right: 3rem;
+  right: 48px;
   bottom: 0;
   color: var(--color-white);
   font-family: "plusjakartasans","Segoe UI";
@@ -46,17 +46,17 @@ h3{
 .projects-card {
   background: var(--color-lightblack);
   display: flex;
-  min-height: 28rem;
+  min-height: 448px;
   padding: 2rem;
   align-items: start;
   gap: 4rem;
-  border-radius: 1rem;
+  border-radius: 16px;
   width: 100%;
 }
 
 .project-pic {
-  max-height: 24rem;
-  max-width: 30rem;
+  max-height: 384px;
+  max-width: 480px;
   object-fit: contain;
   object-position: center;
   align-self: center;
@@ -94,8 +94,8 @@ h3{
 }
 
 .portfolio-pic{
-  max-height: clamp(22rem, 10vw, 26rem);
-  max-width: clamp(22rem, 10vw, 26rem);
+  max-height: clamp(352px, 10vw, 416px);
+  max-width: clamp(352px, 10vw, 416px);
 }
 
 .about-me-text {
@@ -107,7 +107,7 @@ h3{
 
 /* media */
 
-@media (max-width: 60rem) {
+@media (max-width: 960px) {
   .hero{
     gap:5rem;
   }

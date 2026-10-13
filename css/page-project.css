@@ -74,7 +74,7 @@ align-self: flex-end;
   color: var(--color-orange);
 }
 
-@media (max-width: 60rem){
+@media (max-width: 960px){
   .project-card-section{
     grid-template-columns: 1fr;
   }
