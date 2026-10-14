@@ -100,3 +100,9 @@ h3{
 .white-text {
   color: var(--color-white);
 }
+
+@media (max-width: 960px){
+  body{
+    margin-top: 0;
+  }
+}

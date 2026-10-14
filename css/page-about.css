@@ -111,6 +111,7 @@
   }
   .mobile-portfolio-pic{
     display: flex;
+    margin-bottom: 28px;
   }
 
   .about-pic-frame{
