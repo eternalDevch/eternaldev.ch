@@ -223,7 +223,7 @@ footer {
   color: var(--color-white);
 }
 
-@media (max-width: 864px) {
+@media (max-width: 960px) {
   #eternal-logo {
     display: none;
   }
