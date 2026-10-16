@@ -2,3 +2,26 @@
   box-sizing: border-box;
 }
 
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+.privacy-text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.privacy-policy-text{
+  max-width: 184ch;
+}
+
+.privacy-policy-text li{
+  color: var(--color-white);
+  list-style:inside;
+}
+
