@@ -65,7 +65,7 @@ align-self: stretch;
 .project-more-btn{
 flex-shrink: 0;
 color: var(--white, #EAEAEA);
-font-family: "geistmono";
+font-family: "geistmono", monospace;
 font-size: 18px;
 align-self: flex-end;
 }
