@@ -38,17 +38,18 @@
             <article class="about-frames">
               <h1>About me</h1>
 
-            <picture class="about-pic-frame">
-              <source type="image/webp"
-                      srcset="assets/about_me/portfolio-mobile-682.webp 1x,
-                             assets/about_me/portfolio-mobile-1364.webp 2x">
-
-              <img class="mobile-portfolio-pic"
-                  src="assets/about_me/portfolio-mobile-682.png"
-                  srcset="assets/about_me/portfolio-mobile-682.png 1x,
-                           assets/about_me/portfolio-mobile-1364.png 2x"
-                   alt="Portfolio picture of Niklas Naeff">
-            </picture>
+              <picture class="about-pic-frame">
+                <source media="(min-width: 804px)" type="image/webp"
+                        srcset="assets/about_me/portfolio-mobile-1364.webp">
+                <source type="image/webp"
+                        srcset="assets/about_me/portfolio-mobile-682.webp">
+                <source media="(min-width: 804px)" type="image/png"
+                        srcset="assets/about_me/portfolio-mobile-1364.png">
+                <img class="mobile-portfolio-pic"
+                    src="assets/about_me/portfolio-mobile-682.png"
+                    width="342" height="263"
+                    alt="Portfolio picture of Niklas Naeff">
+              </picture>
 
               <p>Hey, I am Niklas, also known as eternalDev. I am a 19 year old web development student from Switzerland currently studying at SAE Zurich working toward my Bachelor of Science in Web Design and Development. I keep things precise and intentional whether that is in code or design, Clean and minimalistic. I am into building for the web and still figuring out where exactly I want to take it. When I am not studying I am usually out on my motorcycle or following the sim racing scene. You can find me on Discord and occasionally on GitHub.</p>
             </article>
