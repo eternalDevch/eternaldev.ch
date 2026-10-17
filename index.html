@@ -96,9 +96,17 @@
         <section class="about-me">
             <h2>About me</h2>
             <article class="about-me-card">
-               <picture  class="portfolio-pic">
-                    <source srcset="/assets/about_me/Portfolio.webp" type="image/webp">
-                    <img loading="lazy" class="portfolio-pic" src="assets/about_me/Portfolio.jpg" alt="Portfolio picture from Niklas Naeff">
+                <picture>
+                <source type="image/webp"
+                        srcset="assets/about_me/round-portfolio-352.webp 1x,
+                                 assets/about_me/round-portfolio-702.webp 2x">
+                <img
+                    class="portfolio-pic"
+                    src="assets/about_me/round-portfolio-352.png"
+                    srcset="assets/about_me/round-portfolio-352.png 1x,
+                            assets/about_me/round-portfolio-702.png 2x"
+                    width="352" height="352"
+                    alt="Portrait of Niklas Naeff">
                 </picture>
                 <p class="about-me-text">Hey, I'm Niklas, also known as eternalDev. 19 years old, from Switzerland, studying Web Design and Development at SAE Zurich. I work precise and minimal, in code and design, still figuring out exactly where I want to take it. In my off hours i drive motorcycle and sim racing. You can find me active on Discord, sometimes GitHub.</p>
             </article>

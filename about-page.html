@@ -28,17 +28,28 @@
       <main>
         
         <section class="hero">
-          <picture>
+
+          <picture class="about-pic-desktop">
             <source srcset="assets/about_me/portfolio-square.webp" type="image/webp">
-            <img class="portfolio-pic" src="assets/about_me/portfolio-square.png" alt="Portfolio picture of Niklas Naeff">
+            <img src="assets/about_me/portfolio-square.png" alt="Portfolio picture of Niklas Naeff">
           </picture>
+
           <div class="text-icon-frame">
             <article class="about-frames">
               <h1>About me</h1>
-              <picture class="about-pic-frame">
-                <source srcset="assets/about_me/mobile-portfolio.webp">
-                <img class="mobile-portfolio-pic" src="assets/about_me/mobile-portfolio.png" alt="Portfolio picture of Niklas Naeff">
-              </picture>
+
+            <picture class="about-pic-frame">
+              <source type="image/webp"
+                      srcset="assets/about_me/portfolio-mobile-682.webp 1x,
+                             assets/about_me/portfolio-mobile-1364.webp 2x">
+
+              <img class="mobile-portfolio-pic"
+                  src="assets/about_me/portfolio-mobile-682.png"
+                  srcset="assets/about_me/portfolio-mobile-682.png 1x,
+                           assets/about_me/portfolio-mobile-1364.png 2x"
+                   alt="Portfolio picture of Niklas Naeff">
+            </picture>
+
               <p>Hey, I am Niklas, also known as eternalDev. I am a 19 year old web development student from Switzerland currently studying at SAE Zurich working toward my Bachelor of Science in Web Design and Development. I keep things precise and intentional whether that is in code or design, Clean and minimalistic. I am into building for the web and still figuring out where exactly I want to take it. When I am not studying I am usually out on my motorcycle or following the sim racing scene. You can find me on Discord and occasionally on GitHub.</p>
             </article>
             <article class="about-frames">
@@ -134,7 +145,7 @@
         </section>
       </main>
 
-          <footer>
+    <footer>
         <div class="icon-container"">
             <a target="_blank" href="https://discord.gg/aXktXPrN7G">
                 <img src="assets/Icons/discord_icon.svg" alt="Icon from Discord" class="icon">

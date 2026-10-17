@@ -31,11 +31,12 @@
   padding: 1.5rem 1.75rem;
   flex-direction: column;
   align-items: flex-start;
-  flex: 1 1 0;
-  align-self: stretch;
   border-radius: 16px;
+  min-width: 0;
+  flex: 1 1 0;  
   border: var(--color-orange) 1px solid;
   }
+
 
   .about-frames>h1{
     padding-bottom: 1.75rem;
@@ -55,6 +56,11 @@
   padding-right: 3.25rem;
 }
 
+.about-pic-desktop{
+  width: 353px;
+ height: 663px;
+}
+
 
 
 @keyframes spin{
@@ -63,7 +69,7 @@
 }
 
 .carousel{
-  margin: 100px auto;
+  margin: 80px auto;
   width: 100%;
   display: flex;
   overflow-x: auto;
@@ -92,21 +98,27 @@
     text-align: center;
   }
 
-  .text-icon-frame{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 656px;
-    min-width: 0;
-    gap: 1.5rem;
+.text-icon-frame {            
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-self: stretch; 
+  max-width: 1008px;
+  max-height: 656px;  
+  min-width: 0;    
   }
 
   @media (max-width: 960px) {
+
+    .text-icon-frame{
+      max-height: none;
+    }
+
   .hero {
     flex-direction: column;
     align-items: stretch;
   }
-  .portfolio-pic{
+  .about-pic-desktop{
     display: none;
   }
   .mobile-portfolio-pic{
