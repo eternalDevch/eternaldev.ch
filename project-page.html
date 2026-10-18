@@ -27,17 +27,22 @@
 
     <main>
       <h1>Projects</h1>
-      <div class="nav-project-container">
+      <fieldset class="nav-project-container">
+        <input type="radio" name="project" id="filter-none" class="project-filter-reset" checked>
+
           <input type="radio" name="project" id="filter-dev-btn" class="project-radio-btn">
           <label for="filter-dev-btn" class="project-dev-btn">Development</label>
+          <label for="filter-none" class="project-dev-btn project-active">Development</label>
     
           <input type="radio" name="project" id="filter-design-btn" class="project-radio-btn">
           <label for="filter-design-btn" class="project-design-btn">Design</label>
+          <label for="filter-none" class="project-design-btn project-active">Design</label>
     
     
           <input type="radio" name="project" id="filter-collective-btn" class="project-radio-btn">
           <label for="filter-collective-btn" class="project-collective-btn">Collective</label>
-      </div>
+          <label for="filter-none" class="project-collective-btn project-active">Collective</label>
+      </fieldset>
 
 
       <section class="project-card-section">

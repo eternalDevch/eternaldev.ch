@@ -49,6 +49,7 @@ font-family: "geistmono","monospace";
   font-family: "geistmono","monospace";
   font-size: 1rem;
   cursor: pointer;
+  user-select: none;
 }
 
 .project-dev-btn:hover{
@@ -70,6 +71,7 @@ font-family: "geistmono","monospace";
   font-family: "geistmono","monospace";
   font-size: 1rem;
   cursor: pointer;
+  user-select: none;
 }
 
 .project-design-btn:hover{
@@ -91,6 +93,7 @@ font-family: "geistmono","monospace";
   font-family: "geistmono","monospace";
   font-size: 1rem;
   cursor: pointer;
+  user-select: none;
 }
 
 .project-collective-btn:hover{

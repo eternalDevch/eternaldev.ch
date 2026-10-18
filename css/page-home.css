@@ -101,6 +101,7 @@ h3{
 .about-me-text {
   text-align: left;
   max-width: 65ch;
+  font-size: 1.5rem;
   font-family: "geistmono","monospace";
 
 }
