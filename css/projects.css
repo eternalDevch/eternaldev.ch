@@ -104,7 +104,7 @@ border: 1px solid var(--color-orange);
   position: fixed;
   inset: 0;
   place-items: center;
-  backdrop-filter: blur(8px);
+backdrop-filter: blur(8px);
 }
 .lightbox:target { display: grid; }
 .lightbox img { max-width: 90vw; max-height: 90vh; }
