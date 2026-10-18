@@ -25,6 +25,15 @@ font-family: "geistmono","monospace";
 }
 
 /* project-buttons */
+
+.project-radio-btn{
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
 .project-dev-btn{
   display: flex;
   width: 144px;

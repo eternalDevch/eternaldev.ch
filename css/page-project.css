@@ -10,6 +10,43 @@ gap: 8px;
 
 
 
+#filter-dev-btn:checked + .project-dev-btn{
+  background: var(--color-orange);
+  color: var(--color-lightblack);
+}
+
+main:has(#filter-dev-btn:checked) #design-showcase{
+  display: none;
+}
+
+main:has(#filter-dev-btn:checked) :is(#portfolio, #fuelsplit) {
+  display: flex;
+}
+
+#filter-design-btn:checked + .project-design-btn{
+  background: var(--color-blue);
+  color: var(--color-lightblack);
+}
+
+main:has(#filter-design-btn:checked) #fuelsplit{
+  display: none;
+}
+
+main:has(#filter-design-btn:checked) :is(#portfolio, #design-showcase){
+   display: flex; 
+  }
+
+
+#filter-collective-btn:checked + .project-collective-btn{
+  background: var(--color-green);
+  color: var(--color-lightblack);
+}
+
+main:has(#filter-collective-btn:checked) :is(#fuelsplit, #design-showcase, #portfolio){
+  display: none;
+}
+
+
 .project-card-section{
  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(649px, auto));

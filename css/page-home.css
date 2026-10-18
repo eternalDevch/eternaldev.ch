@@ -94,8 +94,8 @@ h3{
 }
 
 .portfolio-pic{
-  max-height: clamp(352px, 10vw, 416px);
-  max-width: clamp(352px, 10vw, 416px);
+  max-height: clamp(352px, 32vw, 416px);
+  max-width: clamp(352px, 32vw, 416px);
 }
 
 .about-me-text {
