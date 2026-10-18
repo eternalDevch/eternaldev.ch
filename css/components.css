@@ -241,6 +241,7 @@ footer {
 
 .email-link{
   color: var(--color-white);
+  text-decoration: underline;
 }
 
 @media (max-width: 960px) {
