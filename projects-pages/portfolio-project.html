@@ -89,20 +89,89 @@
     <section class="picture-section">
       <h2>Pictures</h2>
       <article class="picture-container">
-        <a href="#img1">
-          <img class="project-pics" loading="lazy" src="../assets/Projects/Portfolio_Project/portfoilio_projectpage.png" alt="Screenshot of the project page from eternaldev.xyz">
-        </a>
-        <a href="#" id="img1" class="lightbox"><img loading="lazy" src="../assets/Projects/Portfolio_Project/portfoilio_projectpage.png" alt="Screenshot of the project page from eternaldev.xyz"></a>
-       
-        <a href="#img2">
-          <img class="project-pics" loading="lazy" src="../assets/Projects/Portfolio_Project/portfolio_aboutmepage.png" alt="Screenshot of the about page from eternaldev.xyz">
-        </a>
-        <a href="#" id="img2" class="lightbox"><img loading="lazy" src="../assets/Projects/Portfolio_Project/portfolio_aboutmepage.png" alt="Screenshot of the about page from eternaldev.xyz"></a>
 
-        <a href="#img3">
-          <img class="project-pics" loading="lazy" src="../assets/Projects/Portfolio_Project/portfolio_mainpage.png" alt="Screenshot of the mainpage from eternaldev.xyz">
-        </a>
-        <a href="#" id="img3" class="lightbox"><img loading="lazy" src="../assets/Projects/Portfolio_Project/portfolio_mainpage.png" alt="Screenshot of the mainpage from eternaldev.xyz"></a>
+        <fieldset class="lightbox-slot">
+          <input id="lightbox1" class="lightbox" type="checkbox">
+          <label for="lightbox1" class="lightbox-label">
+            <img class="lightbox-thumb" src="../assets/Projects/Portfolio_Project/portfoilio_projectpage.png" alt="Cat, click to enlarge">
+          </label>
+
+          <label for="lightbox1" class="background">
+            <div class="lightbox-container">
+             <picture class="lightbox-thumb">
+              <source type="image/webp"
+                      srcset="../assets/Projects/Portfolio_Project/portfolio_projectpage_700.webp 1x,
+                              ../assets/Projects/Portfolio_Project/portfolio_projectpage_1050.webp 2x">
+              <img class="lightbox-thumb"
+                  loading="lazy"
+                  src="assets/about_me/round-portfolio-352.png"
+                  srcset="../assets/Projects/Portfolio_Project/portfolio_projectpage_700.png 1x,
+                          ../assets/Projects/Portfolio_Project/portfolio_projectpage_1050.png 2x"
+                  alt="Picture of the about me page from eternaldev.xyz">
+            </picture>
+             <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+                <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+                <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </label>
+        </fieldset>
+
+          <fieldset class="lightbox-slot">
+          <input id="lightbox2" class="lightbox" type="checkbox">
+          <label for="lightbox2" class="lightbox-label">
+            <picture class="lightbox-thumb">
+              <source type="image/webp"
+                      srcset="../assets/Projects/Portfolio_Project/portfolio_aboutmepage_700.webp 1x,
+                              ../assets/Projects/Portfolio_Project/portfolio_aboutmepage_1050.webp 2x">
+              <img class="lightbox-thumb"
+                  loading="lazy"
+                  src="assets/about_me/round-portfolio-352.png"
+                  srcset="../assets/Projects/Portfolio_Project/portfolio_aboutmepage_700.png 1x,
+                          ../assets/Projects/Portfolio_Project/portfolio_aboutmepage_1050.png 2x"
+                  alt="Picture of the about me page from eternaldev.xyz">
+            </picture>
+          </label>
+
+          <label for="lightbox2" class="background">
+            <div class="lightbox-container">
+              <img class="lightbox-full" src="../assets/Projects/Portfolio_Project/portfolio_aboutmepage.png" alt="Picture of the about me page from eternaldev.xyz">
+             <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+                <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+                <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </label>
+        </fieldset>
+
+          <fieldset class="lightbox-slot">
+          <input id="lightbox3" class="lightbox" type="checkbox">
+          <label for="lightbox3" class="lightbox-label">
+            <picture class="lightbox-thumb">
+              <source type="image/webp"
+                      srcset="../assets/Projects/Portfolio_Project/portfolio_mainpage_700.webp 1x,
+                              ../assets/Projects/Portfolio_Project/portfolio_mainpage_1050.webp 2x">
+              <img class="lightbox-thumb"
+                  loading="lazy"
+                  src="assets/about_me/round-portfolio-352.png"
+                  srcset="../assets/Projects/Portfolio_Project/portfolio_mainpage_700.png 1x,
+                          ../assets/Projects/Portfolio_Project/portfolio_mainpage_1050.png 2x"
+                  alt="Picture of the about me page from eternaldev.xyz">
+            </picture>
+          </label>
+
+          <label for="lightbox3" class="background">
+            <div class="lightbox-container">
+              <img class="lightbox-full" src="../assets/Projects/Portfolio_Project/portfolio_mainpage.png" alt="Cat, full size">
+             <svg id="close-svg" class="svg-lightbox" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+                <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+                <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </label>
+        </fieldset>
+
+        
       </article>
 
     </section>

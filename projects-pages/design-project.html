@@ -86,21 +86,58 @@
     <section class="picture-section">
       <h2>Pictures</h2>
       <article class="picture-container">
-        <a href="#img1">
-          <img class="project-pics" loading="lazy" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="eternaldev logo with a glas effects">
-        </a>
-        <a href="#" id="img1" class="lightbox"><img loading="lazy" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="eternaldev logo with a glas effects"></a>
-       
-        <a href="#img2">
-          <img class="project-pics" loading="lazy" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="a minimalistic banner design for eternalDev">
-        </a>
-        <a href="#" id="img2" class="lightbox"><img loading="lazy" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="a minimalistic banner design for eternalDev"></a>
+        <fieldset class="lightbox-slot">
+          <input id="lightbox1" class="lightbox" type="checkbox">
+          <label for="lightbox1" class="lightbox-label">
+            <img class="lightbox-thumb" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="Cat, click to enlarge">
+          </label>
 
-        <a href="#img3">
-          <img class="project-pics" loading="lazy" src="../assets/Projects/Design_Projects/Screenshot 2026-06-23 215944.png" alt="A custom designed Pokemoncard of Charizard">
-        </a>
-        <a href="#" id="img3" class="lightbox"><img loading="lazy" src="../assets/Projects/Design_Projects/Screenshot 2026-06-23 215944.png" alt="A custom designed Pokemoncard of Charizard"></a>
+          <label for="lightbox1" class="background">
+            <div class="lightbox-container">
+              <img class="lightbox-full" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="Cat, full size">
+             <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+                <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+                <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </label>
+        </fieldset>
+
+          <fieldset class="lightbox-slot">
+          <input id="lightbox2" class="lightbox" type="checkbox">
+          <label for="lightbox2" class="lightbox-label">
+            <img class="lightbox-thumb" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="Cat, click to enlarge">
+          </label>
+
+          <label for="lightbox2" class="background">
+            <div class="lightbox-container">
+              <img class="lightbox-full" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="Cat, full size">
+             <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+                <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+                <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </label>
+        </fieldset>
+
+          <fieldset class="lightbox-slot">
+          <input id="lightbox3" class="lightbox" type="checkbox">
+          <label for="lightbox3" class="lightbox-label">
+            <img class="lightbox-thumb" src="../assets/Projects/Design_Projects/Screenshot 2026-06-23 215944.png" alt="Cat, click to enlarge">
+          </label>
+
+          <label for="lightbox3" class="background">
+            <div class="lightbox-container">
+              <img class="lightbox-full" src="../assets/Projects/Design_Projects/Screenshot 2026-06-23 215944.png" alt="Cat, full size">
+             <svg id="close-svg" class="svg-lightbox" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+                <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
+                <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </label>
+        </fieldset>
       </article>
+
 
     </section>
   </main>

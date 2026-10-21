@@ -23,6 +23,7 @@ align-self: stretch;
 
 #close-svg{
   stroke: var(--color-white);
+  cursor: pointer;
 }
 
 .category-section{
@@ -83,8 +84,7 @@ align-self: stretch;
 
 .picture-container{
 display: flex;
-padding: 25px;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center;
 gap: 20px;
 align-self: stretch;
@@ -99,7 +99,95 @@ border: 1px solid var(--color-orange);
 }
 
 /* lightbox */
-.lightbox {
+
+
+.lightbox-slot{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 350px; 
+  height: 350px; 
+  border: 1px solid var(--color-orange);
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+  
+
+.lightbox{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.lightbox-thumb{
+  max-width: 348px;
+  max-height: 348px;
+  object-fit: contain;
+}
+
+.lightbox-label{
+  cursor: pointer; 
+  user-select: none; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-lightblack);
+}
+
+.lightbox:focus-visible + .lightbox-label{
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.lightbox-container{
+  display: flex;
+  gap: 30px;
+}
+
+.background{ display: none; }
+
+.lightbox:checked ~ .background{
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgb(0 0 0 / 0.3);
+  backdrop-filter: blur(8px);
+  user-select: none;
+}
+
+.lightbox-full{
+  display: block;
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+/* #close-svg{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  stroke: white;              
+  cursor: pointer;   
+}
+
+#close-svg:hover{
+  stroke: var(--color-orange);
+} */
+
+
+/* .lightbox {
   display: none;
   position: fixed;
   inset: 0;
@@ -107,9 +195,24 @@ border: 1px solid var(--color-orange);
 backdrop-filter: blur(8px);
 }
 .lightbox:target { display: grid; }
-.lightbox img { max-width: 90vw; max-height: 90vh; }
+.lightbox img { max-width: 90vw; max-height: 90vh; } */
 
 @media (max-width: 960px){
+
+  .lightbox-container {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .lightbox-full{
+    align-self: center;
+    margin: auto;
+  }
+
 
   .main-grid{
     grid-template-columns: 1fr;

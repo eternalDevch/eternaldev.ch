@@ -90,6 +90,7 @@ h3{
   flex-direction: row;
   align-items: center;
   width: auto;
+  padding: 2rem;
   gap: 4rem;
 }
 
