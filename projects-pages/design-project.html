@@ -85,17 +85,30 @@
 
     <section class="picture-section">
       <h2>Pictures</h2>
-      <article class="picture-container">
+     <article class="picture-container">
+
         <fieldset class="lightbox-slot">
           <input id="lightbox1" class="lightbox" type="checkbox">
           <label for="lightbox1" class="lightbox-label">
-            <img class="lightbox-thumb" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="Cat, click to enlarge">
+            <picture class="lightbox-thumb">
+              <source type="image/webp"
+                    srcset="../assets/Projects/Design_Projects/eternalwebdesign_700.webp 1x,
+                      ../assets/Projects/Design_Projects/eternalwebdesign_1050.webp 2x">
+              <img class="lightbox-thumb"
+                  loading="lazy"
+                    srcset="../assets/Projects/Design_Projects/eternalwebdesign_700.png 1x,
+                      ../assets/Projects/Design_Projects/eternalwebdesign_1050.png 2x"
+                  alt="First landing page attempt for the eternalDev name">
+            </picture>
           </label>
 
           <label for="lightbox1" class="background">
             <div class="lightbox-container">
-              <img class="lightbox-full" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="Cat, full size">
-             <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+              <picture>
+                <source srcset="../assets/Projects/Design_Projects/eternalwebdesign.webp" type="image/webp">
+                <img class="lightbox-full" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="First landing page attempt for the eternalDev name">
+              </picture>
+             <svg id="close-svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
                 <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
                 <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
               </svg>
@@ -106,13 +119,25 @@
           <fieldset class="lightbox-slot">
           <input id="lightbox2" class="lightbox" type="checkbox">
           <label for="lightbox2" class="lightbox-label">
-            <img class="lightbox-thumb" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="Cat, click to enlarge">
+            <picture class="lightbox-thumb">
+              <source type="image/webp"
+                      srcset="../assets/Projects/Design_Projects/eternalglaseffect_700.webp 1x,
+                              ../assets/Projects/Design_Projects/eternalglaseffect_1050.webp 2x">
+              <img class="lightbox-thumb"
+                  loading="lazy"
+                  srcset="../assets/Projects/Design_Projects/eternalglaseffect_700.png 1x,
+                              ../assets/Projects/Design_Projects/eternalglaseffect_1050.png 2x"
+                  alt="Eternaldev logo with glass effect">
+            </picture>
           </label>
 
           <label for="lightbox2" class="background">
             <div class="lightbox-container">
-              <img class="lightbox-full" src="../assets/Projects/Design_Projects/eternalwebdesign.png" alt="Cat, full size">
-             <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+              <picture>
+                <source srcset="../assets/Projects/Design_Projects/eternalglaseffect.webp" type="image/webp">
+                <img class="lightbox-full" src="../assets/Projects/Design_Projects/eternalglaseffect.png" alt="The eternaldev logo with a glas effects.">
+              </picture>
+             <svg id="close-svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
                 <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
                 <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
               </svg>
@@ -123,19 +148,32 @@
           <fieldset class="lightbox-slot">
           <input id="lightbox3" class="lightbox" type="checkbox">
           <label for="lightbox3" class="lightbox-label">
-            <img class="lightbox-thumb" src="../assets/Projects/Design_Projects/Screenshot 2026-06-23 215944.png" alt="Cat, click to enlarge">
+            <picture class="lightbox-thumb">
+              <source type="image/webp"
+                      srcset="../assets/Projects/Design_Projects/charizard_700.webp 1x,
+                              ../assets/Projects/Design_Projects/charizard_1050.webp 2x">
+              <img class="lightbox-thumb"
+                  loading="lazy"
+                  srcset="../assets/Projects/Design_Projects/charizard_700.png 1x,
+                              ../assets/Projects/Design_Projects/charizard_1050.png 2x"
+                  alt="Custom Pokémon card design for Charizard">
+            </picture>
           </label>
 
           <label for="lightbox3" class="background">
             <div class="lightbox-container">
-              <img class="lightbox-full" src="../assets/Projects/Design_Projects/Screenshot 2026-06-23 215944.png" alt="Cat, full size">
-             <svg id="close-svg" class="svg-lightbox" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 48 49" fill="none">
+              <picture>
+                <source srcset="../assets/Projects/Design_Projects/charizard.webp" type="image/webp">
+                <img class="lightbox-full" src="../assets/Projects/Design_Projects/charizard.png" alt="Custom Pokémon card design for Charizard">
+              </picture>
+             <svg id="close-svg" class="svg-lightbox"  width="44" height="44" viewBox="0 0 48 49" fill="none">
                 <path d="M1.5 46.0479L46.0477 1.50013" stroke-width="3" stroke-linecap="round"/>
                 <path d="M1.5 2.20703L46.0477 46.7548"  stroke-width="3" stroke-linecap="round"/>
               </svg>
             </div>
           </label>
         </fieldset>
+        
       </article>
 
 

@@ -131,6 +131,9 @@ border: 1px solid var(--color-orange);
   max-width: 348px;
   max-height: 348px;
   object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lightbox-label{
