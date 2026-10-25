@@ -176,29 +176,9 @@ border: 1px solid var(--color-orange);
   object-fit: contain;
 }
 
-/* #close-svg{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  padding: 0.5rem;
-  stroke: white;              
-  cursor: pointer;   
-}
-
-#close-svg:hover{
-  stroke: var(--color-orange);
-} */
 
 
-/* .lightbox {
-  display: none;
-  position: fixed;
-  inset: 0;
-  place-items: center;
-backdrop-filter: blur(8px);
-}
-.lightbox:target { display: grid; }
-.lightbox img { max-width: 90vw; max-height: 90vh; } */
+/* media queries */
 
 @media (max-width: 692px){
 

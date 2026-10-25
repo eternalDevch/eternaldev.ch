@@ -108,7 +108,7 @@ h3{
 
 }
 
-/* media */
+/* media queries */
 @media (max-width: 1024px){
 
   .about-me-card{
@@ -116,7 +116,7 @@ h3{
   }
 
   .project-pic{
-    max-width: 320px;
+    max-width: 228px;
   }
 
 }

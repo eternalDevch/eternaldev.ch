@@ -244,6 +244,8 @@ footer {
   text-decoration: underline;
 }
 
+/* media queries */
+
 @media (max-width: 1024px){
 
   .icon{

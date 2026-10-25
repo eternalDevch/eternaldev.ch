@@ -101,6 +101,8 @@ h3{
   color: var(--color-white);
 }
 
+/* media queries */
+
 @media (max-width: 692px){
   body{
     margin-top: 0;

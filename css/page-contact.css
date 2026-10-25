@@ -108,26 +108,33 @@ textarea::placeholder{
 textarea {
   field-sizing: content;
   min-height: 160px;
-  max-height: 192px;
+  flex: 1; 
   resize: none;
 }
 
-/* media */
+/* media queries */
+
+@media (max-width: 1024px){
+  .hero-content{
+    flex-direction: column-reverse;
+    justify-content: start;
+    gap: 38px;
+
+
+    .contact-form{
+    align-self: center;
+    width: 100%;
+    max-width: none;
+    height: 90dvh;
+  }
+  }
+}
 
 @media (max-width: 692px) {
   .reachout-text{
     max-width: max-content;
   }
   
-  .hero-content{
-    flex-direction: column-reverse;
-    justify-content: start;
-    gap: 38px;
-  }
 
-  .contact-form{
-    align-self: center;
-    width: 100%;
-    max-width: none;
-  }
+
 }

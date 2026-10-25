@@ -129,6 +129,8 @@ align-self: flex-end;
   color: var(--color-orange);
 }
 
+/* media queries */
+
 @media (max-width: 692px){
 
   .nav-project-container{
@@ -147,6 +149,5 @@ align-self: flex-end;
   .project-pic{
     min-height: 120px;
   }
-
 
 }
