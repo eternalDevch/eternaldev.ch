@@ -2,24 +2,24 @@
 
 /* call to action button */
 .cta {
-display: flex;
-padding: 1.5rem;
-min-height: 44px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 0.625rem;
-border-radius: 20.8px;
-border: 2px solid var(--Orange, #fe3a00);
-color: var(--white, #EAEAEA);
-text-align: center;
-text-decoration: none;
-font-family: "geistmono","monospace";
-cursor: pointer;
+  display: flex;
+  padding: 1.5rem;
+  min-height: 44px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 20.8px;
+  border: 2px solid var(--Orange, #fe3a00);
+  color: var(--white, #eaeaea);
+  text-align: center;
+  text-decoration: none;
+  font-family: "geistmono", "monospace";
+  cursor: pointer;
 }
 
-.cta:hover{
-  background: #fe3a004D; 
+.cta:hover {
+  background: #fe3a004d;
 }
 
 .button-right {
@@ -28,7 +28,7 @@ cursor: pointer;
 
 /* project-buttons */
 
-.project-radio-btn{
+.project-radio-btn {
   position: absolute;
   opacity: 0;
   width: 1px;
@@ -55,12 +55,12 @@ cursor: pointer;
   user-select: none;
 }
 
-.project-dev-btn:hover{
+.project-dev-btn:hover {
   color: var(--color-orange);
 }
 
-.project-design-btn{
- display: flex;
+.project-design-btn {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.6em 1.25em;
@@ -78,12 +78,12 @@ cursor: pointer;
   user-select: none;
 }
 
-.project-design-btn:hover{
+.project-design-btn:hover {
   color: var(--color-blue);
 }
 
-.project-collective-btn{
- display: flex;
+.project-collective-btn {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.6em 1.25em;
@@ -101,17 +101,17 @@ cursor: pointer;
   user-select: none;
 }
 
-.project-collective-btn:hover{
+.project-collective-btn:hover {
   color: var(--color-green);
 }
 
-#project-btn-nonactive:hover{
+#project-btn-nonactive:hover {
   color: var(--color-white);
   cursor: default;
 }
 
 /* button extern  */
-.button-extern{
+.button-extern {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
@@ -129,17 +129,16 @@ cursor: pointer;
   stroke: var(--color-orange);
 }
 
-.icon-arrow{
+.icon-arrow {
   vertical-align: middle;
   height: min-content;
 }
 
-.text-extern{
+.text-extern {
   color: var(--color-white);
   text-decoration: none;
-  font-family: "geistmono","monospace";
+  font-family: "geistmono", "monospace";
   font-size: 1rem;
-
 }
 
 /* css header */
@@ -150,12 +149,12 @@ header {
   text-decoration: none;
 }
 
-header li{
+header li {
   list-style-type: none;
 }
 
 .navigation-btn a {
-  font-family: "geistmono","monospace";
+  font-family: "geistmono", "monospace";
   color: var(--color-white);
   font-size: clamp(1rem, 5vw, 2rem);
   margin: 1rem;
@@ -177,8 +176,8 @@ header li{
   border-radius: 20%;
 }
 
-.navigation-btn-active{
-    font-family: "geistmono","monospace";
+.navigation-btn-active {
+  font-family: "geistmono", "monospace";
   color: var(--color-orange);
   font-size: clamp(1rem, 1.5vw, 2rem);
   margin: 1rem;
@@ -197,12 +196,11 @@ header li{
   min-height: 80px;
 }
 
-#hometext-btn{
+#hometext-btn {
   display: none;
-  
 }
 
-#nav-active-btn{
+#nav-active-btn {
   color: var(--color-orange);
 }
 /* footer */
@@ -212,16 +210,16 @@ footer {
   justify-content: space-between;
 }
 
-  .footer-legal-container a{
-    align-self: flex-end;
-  }
+.footer-legal-container a {
+  align-self: flex-end;
+}
 
 .icon-container {
   display: flex;
   gap: 0.5rem;
 }
 
-.footer-legal-container{
+.footer-legal-container {
   display: flex;
   flex-direction: row;
   gap: 4rem;
@@ -229,59 +227,58 @@ footer {
 
 .icon {
   height: 44px;
- 
 }
 
-.impressum{
+.impressum {
   font-size: 1rem;
 }
-.impressum>h2{
-  font-family: "plusjarkartasans","Segoe UI";
+.impressum > h2 {
+  font-family: "plusjarkartasans", "Segoe UI";
 }
 
-.email-link{
+.email-link {
   color: var(--color-white);
   text-decoration: underline;
 }
 
 /* media queries */
 
-@media (max-width: 1024px){
-
-  .icon{
+@media (max-width: 1024px) {
+  .icon {
     height: 48px;
     width: 48px;
   }
 
-    .footer-legal-container{
+  .footer-legal-container {
     flex-direction: column;
     gap: 2rem;
   }
-    .footer-legal-container a{
+  .footer-legal-container a {
     align-self: flex-start;
   }
-
 }
 
 @media (max-width: 692px) {
   #eternal-logo {
     display: none;
   }
-  #hometext-btn{
+  #hometext-btn {
     display: flex;
   }
   header {
     justify-content: center;
   }
 
-  .project-dev-btn, .project-collective-btn, .project-design-btn{
+  .project-dev-btn,
+  .project-collective-btn,
+  .project-design-btn {
     border-radius: 14px;
   }
 
-    footer{
+  footer {
     flex-direction: row-reverse;
   }
-    .icon-container{
+  .icon-container {
     flex-direction: column;
   }
 }

@@ -1,8 +1,8 @@
-h2{
+h2 {
   font-size: 2rem;
 }
 
-h3{
+h3 {
   font-size: 1.5rem;
 }
 
@@ -28,10 +28,9 @@ h3{
   right: 48px;
   bottom: 0;
   color: var(--color-white);
-  font-family: "plusjakartasans","Segoe UI";
-  font-size: clamp(0.80rem, 1.2vw, 1.0rem);
+  font-family: "plusjakartasans", "Segoe UI";
+  font-size: clamp(0.8rem, 1.2vw, 1rem);
   font-weight: 400;
-  
 }
 
 /* css section pinned projects */
@@ -62,7 +61,7 @@ h3{
   align-self: center;
 }
 
-.project-card-container{
+.project-card-container {
   gap: 4rem;
   display: flex;
   flex-direction: column;
@@ -76,7 +75,7 @@ h3{
   flex-direction: column;
   padding: 0.5rem;
   gap: 2rem;
-  max-width: 65ch;   
+  max-width: 65ch;
 }
 
 /* About me Section */
@@ -95,7 +94,7 @@ h3{
   gap: 4rem;
 }
 
-.portfolio-pic{
+.portfolio-pic {
   max-height: clamp(352px, 32vw, 416px);
   max-width: clamp(352px, 32vw, 416px);
 }
@@ -104,37 +103,31 @@ h3{
   text-align: left;
   max-width: 65ch;
   font-size: 1.5rem;
-  font-family: "geistmono","monospace";
-
+  font-family: "geistmono", "monospace";
 }
 
 /* media queries */
-@media (max-width: 1024px){
-
-  .about-me-card{
+@media (max-width: 1024px) {
+  .about-me-card {
     flex-direction: column;
   }
 
-  .project-pic{
+  .project-pic {
     max-width: 228px;
   }
-
 }
 
 @media (max-width: 692px) {
-  .hero{
-    gap:5rem;
+  .hero {
+    gap: 5rem;
   }
 
-  .projects-card{
-  flex-direction: column;
+  .projects-card {
+    flex-direction: column;
   }
 
-  .project-pic{
+  .project-pic {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
-
-
 }

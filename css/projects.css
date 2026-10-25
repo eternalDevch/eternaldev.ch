@@ -1,47 +1,49 @@
-*::before, *::after, * {
+*::before,
+*::after,
+* {
   box-sizing: border-box;
 }
 
-main{
+main {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 74px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 74px;
 }
 
 /* navigation */
-.title-section-project{
+.title-section-project {
   display: flex;
-justify-content: space-between;
-align-items: center;
-align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
 }
 
-#close-svg:hover{
+#close-svg:hover {
   stroke: var(--color-orange);
 }
 
-#close-svg{
+#close-svg {
   stroke: var(--color-white);
   cursor: pointer;
 }
 
-.category-section{
+.category-section {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
 /* main */
-.main-grid{
+.main-grid {
   display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
   width: 100%;
   gap: 74px;
 }
 
-#title-img{
+#title-img {
   grid-column: span 2;
   width: 100%;
   margin: auto;
@@ -50,71 +52,69 @@ align-self: stretch;
   max-height: 476px;
 }
 
-.article-infos{
+.article-infos {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.icon-stack-container{
+.icon-stack-container {
   display: flex;
   gap: 0.5rem;
 }
 
-.icon-stack{
+.icon-stack {
   height: 64px;
 }
 
-.year-info-text{
+.year-info-text {
   gap: 0;
 }
 
-.button-extern{
+.button-extern {
   align-self: auto;
 }
 
 /* picture */
 
-.picture-section{
+.picture-section {
   display: flex;
   flex-direction: column;
   gap: 74px;
   width: 100%;
 }
 
-.picture-container{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-gap: 20px;
-align-self: stretch;
-flex-wrap: wrap;
+.picture-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  flex-wrap: wrap;
 }
 
-.project-pics{
+.project-pics {
   height: 412px;
-aspect-ratio: 1/1;
-object-fit:contain ;
-border: 1px solid var(--color-orange);
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border: 1px solid var(--color-orange);
 }
 
 /* lightbox */
 
-
-.lightbox-slot{
-  display: flex; 
+.lightbox-slot {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px; 
-  height: 350px; 
+  width: 350px;
+  height: 350px;
   border: 1px solid var(--color-orange);
   padding: 0;
   margin: 0;
   min-width: 0;
 }
-  
 
-.lightbox{
+.lightbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -127,7 +127,7 @@ border: 1px solid var(--color-orange);
   border: 0;
 }
 
-.lightbox-thumb{
+.lightbox-thumb {
   max-width: 348px;
   max-height: 348px;
   object-fit: contain;
@@ -136,9 +136,9 @@ border: 1px solid var(--color-orange);
   align-items: center;
 }
 
-.lightbox-label{
-  cursor: pointer; 
-  user-select: none; 
+.lightbox-label {
+  cursor: pointer;
+  user-select: none;
   width: 100%;
   height: 100%;
   display: flex;
@@ -147,19 +147,21 @@ border: 1px solid var(--color-orange);
   background: var(--color-lightblack);
 }
 
-.lightbox:focus-visible + .lightbox-label{
+.lightbox:focus-visible + .lightbox-label {
   outline: 2px solid currentColor;
   outline-offset: 4px;
 }
 
-.lightbox-container{
+.lightbox-container {
   display: flex;
   gap: 30px;
 }
 
-.background{ display: none; }
+.background {
+  display: none;
+}
 
-.lightbox:checked ~ .background{
+.lightbox:checked ~ .background {
   position: fixed;
   inset: 0;
   display: grid;
@@ -169,19 +171,16 @@ border: 1px solid var(--color-orange);
   user-select: none;
 }
 
-.lightbox-full{
+.lightbox-full {
   display: block;
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
 }
 
-
-
 /* media queries */
 
-@media (max-width: 692px){
-
+@media (max-width: 692px) {
   .lightbox-container {
     flex-direction: column-reverse;
     justify-content: start;
@@ -191,17 +190,16 @@ border: 1px solid var(--color-orange);
     padding: 10px;
   }
 
-  .lightbox-full{
+  .lightbox-full {
     align-self: center;
     margin: auto;
   }
 
-
-  .main-grid{
+  .main-grid {
     grid-template-columns: 1fr;
   }
 
-  .article-infos{
+  .article-infos {
     grid-column: span 2;
   }
 }
