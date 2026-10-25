@@ -129,7 +129,7 @@ align-self: flex-end;
   color: var(--color-orange);
 }
 
-@media (max-width: 960px){
+@media (max-width: 692px){
 
   .nav-project-container{
     margin: auto;

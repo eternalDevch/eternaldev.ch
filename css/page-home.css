@@ -68,6 +68,7 @@ h3{
   flex-direction: column;
   justify-content: space-between;
   align-self: stretch;
+  width: 100%;
 }
 
 .project-card-text {
@@ -108,8 +109,19 @@ h3{
 }
 
 /* media */
+@media (max-width: 1024px){
 
-@media (max-width: 960px) {
+  .about-me-card{
+    flex-direction: column;
+  }
+
+  .project-pic{
+    max-width: 320px;
+  }
+
+}
+
+@media (max-width: 692px) {
   .hero{
     gap:5rem;
   }
@@ -124,8 +136,5 @@ h3{
   }
 
 
-  .about-me-card{
-    flex-direction: column;
-  }
 
 }

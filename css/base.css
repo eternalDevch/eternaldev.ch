@@ -101,7 +101,7 @@ h3{
   color: var(--color-white);
 }
 
-@media (max-width: 960px){
+@media (max-width: 692px){
   body{
     margin-top: 0;
   }

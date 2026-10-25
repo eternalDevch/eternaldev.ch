@@ -114,7 +114,7 @@ textarea {
 
 /* media */
 
-@media (max-width: 960px) {
+@media (max-width: 692px) {
   .reachout-text{
     max-width: max-content;
   }

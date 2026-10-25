@@ -200,7 +200,7 @@ backdrop-filter: blur(8px);
 .lightbox:target { display: grid; }
 .lightbox img { max-width: 90vw; max-height: 90vh; } */
 
-@media (max-width: 960px){
+@media (max-width: 692px){
 
   .lightbox-container {
     flex-direction: column-reverse;

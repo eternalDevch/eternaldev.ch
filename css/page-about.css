@@ -108,7 +108,7 @@
   min-width: 0;    
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 692px) {
 
     .text-icon-frame{
       max-height: none;
