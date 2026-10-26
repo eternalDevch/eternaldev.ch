@@ -32,7 +32,7 @@
 
     <main>
       <h1>Projects</h1>
-      <fieldset class="nav-project-container">
+      <fieldset class="nav-project-container" aria-label="filter buttons">
         <input type="radio" name="project" id="filter-none" class="project-filter-reset" checked>
 
           <input type="radio" name="project" id="filter-dev-btn" class="project-radio-btn">
@@ -91,35 +91,70 @@
           </article>
       </section>
     </main>
-              <footer>
-        <div class="icon-container"">
-            <a target="_blank" href="https://discord.gg/aXktXPrN7G">
-                <img src="assets/Icons/discord_icon.svg" alt="Icon from Discord" class="icon">
-            </a>
-            <a target="_blank" href="https://x.com/eternalDevxyz">    
-                <img src="assets/Icons/twitter_icon.svg" alt="icon from twitter" class="icon">
-            </a>
-            <a target="_blank" href="https://www.instagram.com/eternaldev.xyz/">
-                <img src="assets/Icons/insta_Icon.svg" alt="Icon from Instagram" class="icon">
-            </a>
-            <a target="_blank" href="https://github.com/eternalDevxyz?tab=repositories">
-                <img src="assets/Icons/Github_Icon.svg" alt="Icon from Github" class="icon">
-            </a>
-            <a target="_blank" href="mailto:info@eternaldev.xyz">
-                <img src="assets/Icons/E-mail_Icon.svg" alt="Icon for E-mails" class="icon">
-            </a>
-        </div>
+  <footer>
+      <div class="icon-container">
+        <a target="_blank" href="https://discord.gg/aXktXPrN7G"
+            aria-label="Discord link opens in new tab">
+          <img
+            loading="lazy"
+            src="assets/Icons/discord_icon.svg"
+            alt="Icon from Discord"
+            class="icon"¨
+          />
+        </a>
+        <a target="_blank" href="https://x.com/eternalDevxyz"
+        aria-label="Twitter link opens in new tab">
+          <img
+            loading="lazy"
+            src="assets/Icons/twitter_icon.svg"
+            alt="icon from twitter"
+            class="icon"
+          />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/eternaldev.xyz/"
+            aria-label="Instagram link opens in new tab">
+          <img
+            loading="lazy"
+            src="assets/Icons/insta_Icon.svg"
+            alt="Icon from Instagram"
+            class="icon"
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/eternalDevxyz?tab=repositories"
+                      aria-label="Github link opens in new tab"
+        >
+          <img
+            loading="lazy"
+            src="assets/Icons/Github_Icon.svg"
+            alt="Icon from Github"
+            class="icon"
+          />
+        </a>
+        <a target="_blank" href="mailto:info@eternaldev.xyz"
+            aria-label="Mail link opens in your mail application">
+          <img
+            loading="lazy"
+            src="assets/Icons/E-mail_Icon.svg"
+            alt="Icon for E-mails"
+            class="icon"
+          />
+        </a>
+      </div>
 
-        <div class="footer-legal-container">
-            <section class="impressum">
-                <h2 class="orange-text impressum">Impressum</h2>
-                    <p class="impressum">Last updated: June 2026</p>
-                    <p class="impressum">Responsible Person</p>
-                    <p class="impressum">Niklas Naeff</p>
-                    <a class="email-link impressum" href="mailto:info@eternaldev.xyz">info@eternaldev.xyz</a>
-            </section>
-            <a href="privacy-policy.html" class="cta">Privacy policy</a>
-        </div>
+      <div class="footer-legal-container">
+        <section class="impressum">
+          <h2 class="orange-text impressum">Impressum</h2>
+          <p class="impressum">Last updated: June 2026</p>
+          <p class="impressum">Responsible Person</p>
+          <p class="impressum">Niklas Naeff</p>
+          <a class="email-link impressum" href="mailto:info@eternaldev.xyz"
+            >info@eternaldev.xyz</a
+          >
+        </section>
+        <a href="privacy-policy.html" class="cta">Privacy policy</a>
+      </div>
     </footer>
 </body>
 </html>
