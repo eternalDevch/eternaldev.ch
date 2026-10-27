@@ -24,6 +24,8 @@
   gap: 24px;
 }
 
+/* social links */
+
 .social-links {
   display: flex;
   flex-direction: column;
@@ -49,6 +51,8 @@
 .button-extern:hover {
   color: var(--color-orange);
 }
+
+/* contact form */
 
 .contact-form {
   display: flex;

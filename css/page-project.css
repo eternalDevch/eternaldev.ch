@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* filter buttons  */
+
 .nav-project-container {
   display: flex;
   align-items: center;
@@ -63,6 +65,8 @@ main:has(#filter-collective-btn:checked)
   :is(#fuelsplit, #design-showcase, #portfolio) {
   display: none;
 }
+
+/* project grid */
 
 .project-card-section {
   display: grid;

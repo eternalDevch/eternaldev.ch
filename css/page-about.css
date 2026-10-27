@@ -14,6 +14,8 @@
   gap: 2rem;
 }
 
+/* Portfolio-Picture */
+
 .portfolio-pic {
   max-height: 656px;
   max-width: auto;
@@ -25,6 +27,8 @@
   width: 100%;
   height: auto;
 }
+
+/* about-text */
 
 .about-frames {
   display: flex;
@@ -40,6 +44,8 @@
 .about-frames > h1 {
   padding-bottom: 1.75rem;
 }
+
+/* tools i use */
 
 #tools-i-use {
   padding-bottom: 0;
@@ -58,15 +64,6 @@
 .about-pic-desktop {
   width: 353px;
   height: 663px;
-}
-
-@keyframes spin {
-  from {
-    translate: 0;
-  }
-  to {
-    translate: -100%;
-  }
 }
 
 .carousel {
@@ -106,6 +103,16 @@
   max-width: 1008px;
   max-height: 656px;
   min-width: 0;
+}
+
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
 }
 
 /* media queries */
