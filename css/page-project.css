@@ -141,7 +141,7 @@ main:has(#filter-collective-btn:checked)
 
   .projects-card {
     flex-direction: column;
-    max-height: none;
+    height: min-content;
   }
 
   .project-pic {
