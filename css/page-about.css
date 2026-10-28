@@ -182,6 +182,15 @@ flex-wrap: wrap;
   }
 }
 
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel {
     scrollbar-width: thin;
@@ -198,14 +207,5 @@ flex-wrap: wrap;
 
   #tool-container-animation {
     display: none;
-  }
-}
-
-@keyframes spin {
-  from {
-    translate: 0;
-  }
-  to {
-    translate: -100%;
   }
 }
