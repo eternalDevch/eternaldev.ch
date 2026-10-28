@@ -142,7 +142,7 @@
 }
 
 /* css header */
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -265,7 +265,8 @@ footer {
   #hometext-btn {
     display: flex;
   }
-  header {
+  
+  nav {
     justify-content: center;
   }
 
