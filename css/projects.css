@@ -119,8 +119,8 @@ main {
 }
 
 .lightbox-thumb {
-  max-width: 348px;
-  max-height: 348px;
+  max-width: 346px;
+  max-height: 346px;
   object-fit: contain;
   display: flex;
   justify-content: center;
