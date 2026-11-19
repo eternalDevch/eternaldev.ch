@@ -2,7 +2,7 @@
   <img src="assets/logo/eternaldev_title.svg" alt="eternalDev.ch" width="600" />
 </p>
 
-Personal portfolio site of eternalDev, a web developer in Switzerland. It shows pinned projects, three case study pages, an about page, a contact page, and a privacy policy.
+Personal portfolio site of Niklas Naeff, also known as eternalDev, a web developer in Switzerland. It shows pinned projects, three case study pages, an about page, a contact page, and a privacy policy.
 
 This is my first web project ever built. It was made to learn the fundamentals of HTML, CSS, and layout from scratch, without a framework.
 
